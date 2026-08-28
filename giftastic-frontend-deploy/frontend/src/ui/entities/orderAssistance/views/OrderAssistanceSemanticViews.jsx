@@ -128,7 +128,7 @@ export function OrderAssistanceThread({ entity, access }) {
         <div className="min-w-0">
           <h3 className="break-words font-bold text-slate-800">{entity.supplierName || 'Vendor'}</h3>
           <p className="break-all text-xs text-slate-500">
-            Request #{entity.id || '—'} · Order #{entity.orderId || '—'}
+            Request #{entity.id || '-'} · Order #{entity.orderId || '-'}
           </p>
         </div>
         <span className={`rounded-full px-2.5 py-1 text-xs font-bold ${getOrderAssistanceStatusClass(entity.status)}`}>
@@ -143,7 +143,7 @@ export function OrderAssistanceThread({ entity, access }) {
             {messages.map((message, index) => (
               <li key={message.id || `${message.createdAt || 'message'}-${index}`}>
                 <p className="text-xs text-slate-500">
-                  {getOrderAssistanceSenderLabel(message.senderRole)} · {formatOrderAssistanceDate(message.createdAt) || '—'}
+                  {getOrderAssistanceSenderLabel(message.senderRole)} · {formatOrderAssistanceDate(message.createdAt) || '-'}
                 </p>
                 <p className="break-words text-sm text-slate-800">{message.message}</p>
               </li>

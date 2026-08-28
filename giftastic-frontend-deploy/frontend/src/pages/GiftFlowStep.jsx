@@ -745,7 +745,7 @@ export default function GiftFlowStep() {
             <div className="pt-4 border-t border-stone-100 space-y-4">
               <div className="flex justify-between items-center font-bold text-stone-900 bg-stone-50 p-4 rounded-xl border border-stone-150">
                 <span className="text-sm">Total Selected Value</span>
-                <span className="text-primary text-lg">{formatProductMoney(totalPrice) || '—'}</span>
+                <span className="text-primary text-lg">{formatProductMoney(totalPrice) || '-'}</span>
               </div>
               <p className="text-[11px] text-stone-400 leading-relaxed text-center">
                 All selected items will be packaged and grouped inside your premium custom gift box.

@@ -40,7 +40,7 @@ springdoc:
 # Payment Configuration
 payment:
   instapay:
-    phone-number: ${INSTAPAY_PHONE_NUMBER:01015457241}
+    phone-number: ${INSTAPAY_PHONE_NUMBER}
 
 # Security Configuration
 security:

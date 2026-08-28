@@ -60,7 +60,7 @@ export default function ProductHeroSection({ product, action, showStatus = false
           </div>
           {(product?.averageRating !== undefined || product?.reviewCount !== undefined) && (
             <p className="mt-3 text-sm font-semibold text-on-surface-variant">
-              Rating {formatProductRating(product.averageRating) || '—'} &middot; {product.reviewCount ?? '—'} reviews
+              Rating {formatProductRating(product.averageRating) || '-'} &middot; {product.reviewCount ?? '-'} reviews
             </p>
           )}
           {product?.description && (

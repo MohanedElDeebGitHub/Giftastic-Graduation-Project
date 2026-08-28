@@ -10,11 +10,11 @@ export default function CommissionRow({ commission, access, onDetails }) {
   const overdue = commission.overdue || commission.status === 'OVERDUE';
   return (
     <tr>
-      <td className="px-4 py-2 text-sm">{getCommissionOrderLabel(commission) || '—'}</td>
+      <td className="px-4 py-2 text-sm">{getCommissionOrderLabel(commission) || '-'}</td>
       <td className="px-4 py-2 text-sm">
         {hasLoadedEntityField(commission, 'commissionAmount')
           ? formatCommissionMoney(commission.commissionAmount)
-          : '—'}
+          : '-'}
       </td>
       <td className="px-4 py-2 text-sm">
         {hasLoadedEntityField(commission, 'status') && (
@@ -23,8 +23,8 @@ export default function CommissionRow({ commission, access, onDetails }) {
           </span>
         )}
       </td>
-      <td className="px-4 py-2 text-sm">{formatCommissionDate(commission.dueDate) || '—'}</td>
-      <td className="px-4 py-2 text-sm">{formatCommissionDate(commission.paidAt) || '—'}</td>
+      <td className="px-4 py-2 text-sm">{formatCommissionDate(commission.dueDate) || '-'}</td>
+      <td className="px-4 py-2 text-sm">{formatCommissionDate(commission.paidAt) || '-'}</td>
       {typeof onDetails === 'function' && (
         <td className="px-4 py-2 text-sm">
           <button type="button" onClick={() => onDetails(commission)} className="px-3 py-1 border rounded">Details</button>

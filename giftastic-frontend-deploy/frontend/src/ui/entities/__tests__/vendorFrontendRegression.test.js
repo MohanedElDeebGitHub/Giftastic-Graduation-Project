@@ -103,5 +103,5 @@ test('Admin dashboard modals render a real close icon', () => {
 
   assert.match(dashboard, /aria-label=\{`Close \$\{title\}`\}/);
   assert.match(dashboard, /material-symbols-outlined[^>]*aria-hidden="true">close/);
-  assert.doesNotMatch(dashboard, /Ã—|âœ•/);
+  assert.doesNotMatch(dashboard, /Ã-|âœ•/);
 });

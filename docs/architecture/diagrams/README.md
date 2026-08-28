@@ -1,6 +1,6 @@
 # Giftastic ERD and UML Class Diagram
 
-This folder contains the project diagrams for the Giftastic system.
+This directory contains the project diagrams for the Giftastic system.
 
 ## Files
 
@@ -18,9 +18,9 @@ This folder contains the project diagrams for the Giftastic system.
 
 The diagrams are written in Mermaid format. They can be rendered by:
 
-1. Opening the `.mmd` files in a Mermaid-compatible editor.
-2. Pasting the contents into a Markdown document that supports Mermaid diagrams.
-3. Using Mermaid CLI if available:
+1. Open the `.mmd` files in a Mermaid-compatible editor.
+2. Paste the contents into a Markdown document that supports Mermaid diagrams.
+3. Use Mermaid CLI if available:
 
 ```bash
 mmdc -i giftastic_erd.mmd -o giftastic_erd.svg

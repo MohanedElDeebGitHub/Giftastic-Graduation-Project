@@ -5,10 +5,10 @@
 Set this in the frontend hosting provider before deploying:
 
 ```bash
-VITE_API_BASE_URL=https://your-railway-backend.up.railway.app/api/v1
+VITE_API_BASE_URL=https://<backend-host>/api/v1
 ```
 
-Use the public Railway backend URL and keep the `/api/v1` suffix.
+Use the public backend URL and keep the `/api/v1` suffix.
 
 Production uses the same-origin `/api/v1` URL. A Vercel edge proxy forwards those requests to the `BACKEND_ORIGIN` deployment setting without changing the backend or requiring browser CORS access.
 

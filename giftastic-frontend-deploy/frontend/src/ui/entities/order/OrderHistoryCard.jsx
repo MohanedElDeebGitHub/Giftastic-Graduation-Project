@@ -22,7 +22,7 @@ export default function OrderHistoryCard({ order, access }) {
           {items.map((item, index) => (
             <li key={`${item.productId || 'item'}-${index}`} className="rounded-xl border border-outline-variant/50 bg-surface-container-lowest p-3">
               <p className="font-bold text-primary">{item.productName || 'Gift item'}</p>
-              <p className="mt-1 text-xs text-on-surface-variant">Qty {item.quantity ?? '—'} · {formatOrderMoney(item.price) || 'Price unavailable'}</p>
+              <p className="mt-1 text-xs text-on-surface-variant">Qty {item.quantity ?? '-'} · {formatOrderMoney(item.price) || 'Price unavailable'}</p>
             </li>
           ))}
         </ul>

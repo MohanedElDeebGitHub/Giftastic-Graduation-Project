@@ -905,7 +905,7 @@ function UsersPanel({ has, toast, viewer }) {
                   />
                 </div>
                 <div style={{ fontSize: 13, fontWeight: 700, color: '#0f766e' }}>
-                  {formatMoney(customer.totalSpent) || '—'}
+                  {formatMoney(customer.totalSpent) || '-'}
                 </div>
               </div>
               );
@@ -1395,7 +1395,7 @@ function VendorsPanel({ has, toast, viewer }) {
                   <div style={{ fontSize: 12, color: '#4b444d' }}>{vendor.totalOrders} orders</div>
                 </button>
                 <div style={{ fontSize: 13, fontWeight: 700, color: '#0f766e' }}>
-                  {formatMoney(vendor.totalRevenue) || '—'}
+                  {formatMoney(vendor.totalRevenue) || '-'}
                 </div>
               </div>
             ))}
@@ -1765,7 +1765,7 @@ function ProductsPanel({ has, toast, viewer }) {
                 <div style={{ textAlign: 'right' }}>
                   <div style={{ fontSize: 12, color: '#4b444d' }}>{product.totalSales} sold</div>
                   <div style={{ fontSize: 13, fontWeight: 700, color: '#0f766e' }}>
-                    {formatMoney(product.totalRevenue) || '—'}
+                    {formatMoney(product.totalRevenue) || '-'}
                   </div>
                 </div>
               </div>

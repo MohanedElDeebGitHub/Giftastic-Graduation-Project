@@ -132,13 +132,13 @@ This design system avoids harsh shadows. Instead, it utilizes **Ambient, Tinted 
 Layering is achieved through **Tonal Tiers**: 
 1. The base layer is the Cream neutral. 
 2. Raised cards use a white surface with a soft plum-tinted shadow.
-3. Floating elements (like the "Add to Cart" sticky bar) use a subtle glassmorphism effect—a semi-transparent white with a high-density background blur—to maintain a sense of lightness and modernity.
+3. Floating elements (like the "Add to Cart" sticky bar) use a subtle glassmorphism effect-a semi-transparent white with a high-density background blur-to maintain a sense of lightness and modernity.
 
 ## Shapes
 
 The shape language is defined by **Soft Roundedness (Level 2)**. This removes the clinical feel of sharp corners, replacing them with a more organic, "gift-wrapped" aesthetic. 
 
-Primary buttons and input fields use a standard 0.5rem radius, while featured product cards and promotional banners utilize a more pronounced `rounded-xl` (1.5rem) to make them feel special and inviting. Ribbon motifs—used as decorative separators—should feature soft, flowing curves rather than jagged edges.
+Primary buttons and input fields use a standard 0.5rem radius, while featured product cards and promotional banners utilize a more pronounced `rounded-xl` (1.5rem) to make them feel special and inviting. Ribbon motifs-used as decorative separators-should feature soft, flowing curves rather than jagged edges.
 
 ## Components
 
