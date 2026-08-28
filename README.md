@@ -239,6 +239,12 @@ The team managed the project with Jira for task tracking, Confluence for shared 
 - [Canonical frontend entities](docs/frontend/canonical-ui-entities.md)
 - [ERD and UML diagrams](docs/architecture/diagrams/README.md)
 
+## License
+
+This project is source available under the [PolyForm Noncommercial License 1.0.0](LICENSE). You may study, test, modify, and share the project for noncommercial purposes, subject to the license terms and required notices. Commercial use requires separate written permission from the copyright holders.
+
+Required Notice: Copyright © 2026 Giftastic Contributors
+
 ## Team
 
 Thank you to the team members who contributed to the project:
