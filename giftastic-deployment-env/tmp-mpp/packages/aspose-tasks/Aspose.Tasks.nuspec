@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Aspose.Tasks</id>
+    <version>26.6.0</version>
+    <title>Aspose.Tasks for .NET</title>
+    <authors>Aspose</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">license\End User License Agreement.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icons/aspose-tasks-net-256.png</icon>
+    <projectUrl>https://products.aspose.com/tasks/net</projectUrl>
+    <description>Aspose.Tasks for .NET is a collection of classes that seamlessly integrates with your .NET applications to provide interaction and manipulation capabilities for the Microsoft ProjectⓇ file formats (MPP, MPT, MPX) as well as PrimaveraⓇ formats (XER, P6XML).
+
+Aspose.Tasks for .NET helps developers to create project management Apps in .NET that can work with Microsoft ProjectⓇ formulas, project calendars, calendar exceptions, tasks, task links, task baselines, resources, resource assignments, currencies, as well as fetching VBA information from an MPP file. You can also convert MS ProjectⓇ files to PDF, JPEG, Excel, SVG, HTML, CSV, BMP and many other formats.
+
+Aspose.Tasks for .NET supports any 32-bit or 64-bit OS where .NET or Mono framework is installed, including MS Windows, Linux, and macOS. Aspose.Tasks for .NET classes are packaged into a single DLL which removes your App dependency for any additional 3rd party components or software to be installed in order to work with the Microsoft ProjectⓇ or PrimaveraⓇ files.</description>
+    <releaseNotes>https://releases.aspose.com/tasks/net/release-notes/2026/aspose-tasks-for-net-26-6-release-notes/</releaseNotes>
+    <copyright>© Aspose Pty Ltd 2001-2026. All Rights Reserved.</copyright>
+    <tags>Aspose Aspose.Tasks Aspose.Total Conholdate Conholdate.Total Component Library .NET MPP XML MPT XER P6XML MPX XLSX HTML TXT TIFF SVG PNG PDF JPEG Primavera Project Task Management Resource Assignment Timephased Planning MPP-to-PDF MPP-to-JPEG MPP-to-XML MPP-to-XLSX MPP-to-CSV MPP-to-SVG MPP-to-HTML MPP-to-TIFF ProjectServer ProjectOnline Online OpenProj MPP2XML MPP2PDF MPP2HTML MPP2XER MPP2PNG C# CSharp Convert</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5" />
+      <group targetFramework=".NETFramework4.0-Client" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Drawing.Common" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Permissions" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="System.Security.Permissions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding.CodePages" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Aspose.Drawing" version="23.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-windows">
+        <dependency id="System.Security.Permissions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding.CodePages" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

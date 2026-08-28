@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>Aspose</dc:creator>
+  <dc:description>Aspose.Tasks for .NET is a collection of classes that seamlessly integrates with your .NET applications to provide interaction and manipulation capabilities for the Microsoft ProjectⓇ file formats (MPP, MPT, MPX) as well as PrimaveraⓇ formats (XER, P6XML).
+
+Aspose.Tasks for .NET helps developers to create project management Apps in .NET that can work with Microsoft ProjectⓇ formulas, project calendars, calendar exceptions, tasks, task links, task baselines, resources, resource assignments, currencies, as well as fetching VBA information from an MPP file. You can also convert MS ProjectⓇ files to PDF, JPEG, Excel, SVG, HTML, CSV, BMP and many other formats.
+
+Aspose.Tasks for .NET supports any 32-bit or 64-bit OS where .NET or Mono framework is installed, including MS Windows, Linux, and macOS. Aspose.Tasks for .NET classes are packaged into a single DLL which removes your App dependency for any additional 3rd party components or software to be installed in order to work with the Microsoft ProjectⓇ or PrimaveraⓇ files.</dc:description>
+  <dc:identifier>Aspose.Tasks</dc:identifier>
+  <version>26.6</version>
+  <keywords>Aspose Aspose.Tasks Aspose.Total Conholdate Conholdate.Total Component Library .NET MPP XML MPT XER P6XML MPX XLSX HTML TXT TIFF SVG PNG PDF JPEG Primavera Project Task Management Resource Assignment Timephased Planning MPP-to-PDF MPP-to-JPEG MPP-to-XML MPP-to-XLSX MPP-to-CSV MPP-to-SVG MPP-to-HTML MPP-to-TIFF ProjectServer ProjectOnline Online OpenProj MPP2XML MPP2PDF MPP2HTML MPP2XER MPP2PNG C# CSharp Convert</keywords>
+  <lastModifiedBy>NuGet, Version=5.8.0.6930, Culture=neutral, PublicKeyToken=31bf3856ad364e35;Microsoft Windows NT 10.0.17763.0;.NET Framework 4.7.2</lastModifiedBy>
+</coreProperties>
