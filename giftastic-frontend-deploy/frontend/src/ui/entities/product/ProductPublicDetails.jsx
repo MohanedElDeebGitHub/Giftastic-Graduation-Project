@@ -73,8 +73,8 @@ export default function ProductPublicDetails({
             <div className="flex items-center gap-4">
               <div className="flex items-center space-x-1">
                 <Star className="h-4 w-4 fill-primary text-primary" />
-                <span className="font-bold text-on-surface">{formatProductRating(product.averageRating) || '—'}</span>
-                <span className="text-sm text-on-surface-variant">({product.reviewCount ?? '—'} reviews)</span>
+                <span className="font-bold text-on-surface">{formatProductRating(product.averageRating) || '-'}</span>
+                <span className="text-sm text-on-surface-variant">({product.reviewCount ?? '-'} reviews)</span>
               </div>
               {reportAction}
             </div>

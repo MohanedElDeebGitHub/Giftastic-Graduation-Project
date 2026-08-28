@@ -133,7 +133,7 @@ export default function Cart() {
                 <div className="space-y-3 mb-6">
                   <div className="flex justify-between text-on-surface-variant">
                     <span>Subtotal</span>
-                    <span>{formatCartMoney(getCartTotal(cart)) || '—'}</span>
+                    <span>{formatCartMoney(getCartTotal(cart)) || '-'}</span>
                   </div>
                   <div className="flex justify-between text-on-surface-variant text-sm">
                     <span>Shipping</span>
@@ -141,7 +141,7 @@ export default function Cart() {
                   </div>
                   <div className="border-t border-outline-variant pt-3 flex justify-between font-bold text-primary text-lg">
                     <span>Subtotal</span>
-                    <span>{formatCartMoney(getCartTotal(cart)) || '—'}</span>
+                    <span>{formatCartMoney(getCartTotal(cart)) || '-'}</span>
                   </div>
                 </div>
 

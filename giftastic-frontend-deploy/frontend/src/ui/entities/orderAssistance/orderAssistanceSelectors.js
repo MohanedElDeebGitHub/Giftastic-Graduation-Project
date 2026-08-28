@@ -18,7 +18,7 @@ export const getOrderAssistanceStatusClass = (status) => ({
 }[status] || 'bg-slate-100 text-slate-600');
 
 export const getOrderAssistanceShortReference = (value) =>
-  value ? String(value).slice(0, 8) : '—';
+  value ? String(value).slice(0, 8) : '-';
 
 export const getOrderAssistanceSenderLabel = (role) => ({
   VENDOR: 'Vendor',

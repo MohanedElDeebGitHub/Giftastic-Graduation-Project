@@ -85,13 +85,13 @@ export function AdminRequestModerationCard({ entity, access, actions = [], onDet
             <span className={`rounded-full px-3 py-1 text-xs font-bold ${getAdminRequestStatusStyle(entity.status)}`}>
               {getAdminRequestStatusLabel(entity.status)}
             </span>
-            <span className="text-sm text-slate-500">{formatAdminRequestDate(entity.requestedAt) || '—'}</span>
+            <span className="text-sm text-slate-500">{formatAdminRequestDate(entity.requestedAt) || '-'}</span>
           </div>
           <h4 className="break-words font-semibold text-slate-800">{entity.userFullName || 'Unknown User'}</h4>
           {entity.userEmail && <p className="break-all text-sm text-slate-500">{entity.userEmail}</p>}
           {entity.message && <p className="mt-3 max-w-full overflow-hidden whitespace-pre-wrap break-words [overflow-wrap:anywhere] rounded-lg border border-slate-200 bg-white p-3 text-sm leading-relaxed text-slate-700">{entity.message}</p>}
           {entity.reviewNotes && <p className="mt-3 break-words text-sm text-slate-600"><strong>Review notes:</strong> {entity.reviewNotes}</p>}
-          {entity.canReapplyAt && <p className="mt-2 text-xs font-semibold text-amber-600">Can reapply: {formatAdminRequestDate(entity.canReapplyAt) || '—'}</p>}
+          {entity.canReapplyAt && <p className="mt-2 text-xs font-semibold text-amber-600">Can reapply: {formatAdminRequestDate(entity.canReapplyAt) || '-'}</p>}
         </div>
         <div className="flex flex-wrap gap-2">
           <SemanticActionBar actions={actions.filter((action) => ['approve', 'reject'].includes(action.key))} pendingKey={pendingKey} />

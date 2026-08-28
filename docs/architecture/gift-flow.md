@@ -37,9 +37,10 @@ public class GiftFlow {
 }
 ```
 
-### Purpose:
-* **`supplierId`**: Ensures only the owning vendor can edit it, and allows the UI to list "Flows by Vendor X".
-* **`configuration`**: Stringified JSON. The backend is agnostic to its contents. It blindly stores and serves it.
+### Purpose
+
+* **`supplierId`**: Identifies the owning vendor and scopes flow management and listing.
+* **`configuration`**: Stores the flow definition as JSON text. The frontend interprets the definition while the backend persists and serves it.
 
 ---
 

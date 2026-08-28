@@ -35,7 +35,7 @@ export default function VendorOrderRow({
           onCustomerOpen?.(customer);
         }} />
       </td>
-      <td className="px-8 py-6 text-right"><p className="font-display-sm text-primary">{formatOrderMoney(getOrderVisibleTotal(order, access)) || '—'}</p></td>
+      <td className="px-8 py-6 text-right"><p className="font-display-sm text-primary">{formatOrderMoney(getOrderVisibleTotal(order, access)) || '-'}</p></td>
       <td className="px-8 py-6 text-center" onClick={(event) => event.stopPropagation()}>
         <select
           value={vendorStatus}

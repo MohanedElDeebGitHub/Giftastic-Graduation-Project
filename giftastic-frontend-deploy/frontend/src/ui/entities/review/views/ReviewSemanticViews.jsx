@@ -165,7 +165,7 @@ export function ReviewModerationCard({ entity, access, selected = false, onSelec
           <span className="min-w-0">
             <ReviewCustomerReference entity={entity} access={access} compact />
             <span className="block text-sm font-manrope text-[#4b444d]">
-              {formatReviewDate(entity.createdAt) || '—'}
+              {formatReviewDate(entity.createdAt) || '-'}
             </span>
           </span>
         </div>
@@ -174,7 +174,7 @@ export function ReviewModerationCard({ entity, access, selected = false, onSelec
       {entity.comment && <p className="line-clamp-3 font-manrope text-[#1b1c1a]">{entity.comment}</p>}
       <div className="mt-3 flex flex-wrap items-center gap-2">
         <span className={`rounded px-2 py-1 text-xs font-plus-jakarta font-semibold ${getReviewContentScoreClass(entity.contentScore)}`}>
-          Score: {formatReviewContentScore(entity.contentScore) || '—'}
+          Score: {formatReviewContentScore(entity.contentScore) || '-'}
         </span>
         {entity.reviewType && <span className="text-xs font-manrope text-[#4b444d]">{entity.reviewType}</span>}
       </div>
